@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:experimental
+# syntax=docker/dockerfile:1.2
 FROM alpine
 # install ssh client and git
 RUN apk add --no-cache openssh-client git
